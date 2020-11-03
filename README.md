@@ -13,7 +13,7 @@ Note, this is a long assignment, meant to be completed over the two weeks when w
 You should start this assignment by opening up your `analysis.R` script. The script will guide you through an initial analysis of the data. Throughout the script, there are prompts labeled **Reflection**. Please write 1 - 2 sentences for each of these reflections below:
 
 - What does each row in the data represent (hint: read the [documentation](https://github.com/nytimes/covid-19-data/)!)?
-**Answer** Each row has separate columns that represent the date, location (country, state, or county), the number of COVID-19 cases, and another with the number of COVID-19 deaths.
+**Answer** Each row of the dataset represents the cumulative (total) number of coronavirus cases and deaths for based the New York Times' publishes their best reporting at the time (date) they publishes their data. Different datasets record historical data broken down into national, state and county levels.
 
 - What did you learn about the dataset when you calculated the state with the lowest cases (and what does that tell you about testing your assumptions in a dataset)?
 **Answer**  My assumption of cases in the state with the lowest cases were incorrect. I thought there would be much less than what was shown in the dataset. This tells me that I cannot just assume the amount of COVID-19 cases, without looking at the actual data.
